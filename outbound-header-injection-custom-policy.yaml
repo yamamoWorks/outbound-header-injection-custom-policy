@@ -1,0 +1,17 @@
+id: Outbound Header Injection
+name: Outbound Header Injection
+description: Outbound Header Injection Custom Policy
+category: Custom
+type: custom
+resourceLevelSupported: true
+encryptionSupported: false
+standalone: true
+requiredCharacteristics: []
+providedCharacteristics: []
+configuration:
+  - propertyName: requestHeaders
+    name: Reques Headers
+    description: Header Names and values
+    type: keyvalues
+    optional: true
+    allowMultiple: true
